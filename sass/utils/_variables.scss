@@ -1,0 +1,27 @@
+/* основной белый цвет #ffffff */
+/* вторичный белый цвет #F5F4FA */
+/* основной цвет текста #757575 */
+/* вторичный цвет текста #212121 */
+/* основной акцент цвет #2196F3 */
+/* цвет ховера основной кнопки #188CE8 */
+/* цвет фона героя и подвала #2F303A */
+/* цвет текста адреса rgba(255, 255, 255, 0.6) */
+/* цвет логотипа #000000 */
+/* цвет нижней рамки хедера #ececec */
+/* цвет бордера проектов #eeeeee;*/
+/* цвет svg изображений #afb1b8;*/
+
+:root {
+  --primery-white-color: #ffffff;
+  --secondary-white-color: #f5f4fa;
+  --primery-text-color: #757575;
+  --secondary-text-color: #212121;
+  --prymery-accent-color: #2196f3;
+  --secondary-accent-color: #188ce8;
+  --address-text-color: rgba(255, 255, 255, 0.6);
+  --logo-color: #000000;
+  --background-color: #2f303a;
+  --header-border-color: #ececec;
+  --project-border-color: #eeeeee;
+  --svg-picture-color: #afb1b8;
+}

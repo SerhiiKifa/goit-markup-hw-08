@@ -1,0 +1,31 @@
+.address__item:not(:last-child) {
+  margin-bottom: 9px;
+}
+
+.address__link {
+  display: block;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 1.7;
+  color: var(--address-text-color);
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
+  &--geo {
+    display: block;
+    color: var(--primery-white-color);
+    font-style: normal;
+    font-size: 14px;
+    line-height: 1.7;
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  }
+  &--geo:hover,
+  &--geo:focus {
+    color: var(--prymery-accent-color);
+  }
+
+  &:hover,
+  &:focus {
+    color: var(--prymery-accent-color);
+  }
+}
